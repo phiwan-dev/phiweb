@@ -4,18 +4,18 @@ title: Terms & Conditions
 
 ## Copyright
 
-&copy; 2025 Jane Doe. All rights reserved.
+&copy; 2025 phiwan. All rights reserved.
 
 ## Reuse
 
 ### Source Code
 
-The source code for janedoe.com is protected under the MIT License. In short, you can do as you see fit, so long as you include the original copyright notice in any copy of the software.
+The source code for www.phiwan.dev is protected under the MIT License. In short, you can do as you see fit, so long as you include the original copyright notice in any copy of the software.
 
 ```md
 The MIT License (MIT)
 
-Copyright (c) 2025 Jane Doe
+Copyright (c) 2025 phiwan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@ SOFTWARE.
 
 ### Content
 
-It is not permitted to mirror or re-publish the content of this website. That includes, for example, the words and images displayed on it. Write your own blog.
+It is not permitted to mirror or re-publish the content of this website. I encourage you to write your own blog!
 
 ## Terms
 
