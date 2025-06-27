@@ -1,9 +1,9 @@
 ---
-image: "@assets/astrogon-star.svg"
+image: "@assets/phiwan-logo.svg"
 imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
+title: phiwan
+content: rambling blog, documentation, and more
 button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+  label: I love it ❤️
+  link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ---
