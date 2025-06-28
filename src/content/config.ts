@@ -34,7 +34,7 @@ const about = defineCollection({
 });
 
 const docs = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/docs" }),
+  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/blog" }),
   schema: ({ image }) =>
     searchable.extend({
       pubDate: z.date().optional(),

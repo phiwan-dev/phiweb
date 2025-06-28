@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
-import type { DocsEntry, MenuItem } from "@/types";
-import DocBrowser from "@components/docs/Browser.astro";
+import type { BlogEntry, MenuItem } from "@/types";
+import DocBrowser from "@components/blog/Browser.astro";
 import TableOfContents from "@components/common/TableOfContents.astro";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
 
 interface Props {
-  entry: DocsEntry;
+  entry: BlogEntry;
   browserMenu: MenuItem[];
 }
 
