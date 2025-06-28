@@ -7,13 +7,11 @@ export type AboutEntry = CollectionEntry<"about">;
 export type DocsEntry = CollectionEntry<"docs">;
 export type HomeEntry = CollectionEntry<"home">;
 export type IndexCardsEntry = CollectionEntry<"indexCards">;
-export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type TermsEntry = CollectionEntry<"terms">;
 
 export type SearchableEntry =
   | AboutEntry
   | DocsEntry
-  | PortfolioEntry
   | TermsEntry;
 
 export type SocialLinks = {
