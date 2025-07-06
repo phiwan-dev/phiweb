@@ -65,7 +65,11 @@ const ConversationSwiper = ({ cards }: Props) => {
           <div className="row items-center">
             <div
               className="cursor-pointer col-4 p-0 text-txt-p dark:text-darkmode-txt-p text-center align-middle"
-              onClick={() => swiper?.slidePrev()}
+              onClick={() => { 
+                const newIndex = (currentIndex - 1 + cards.length) % cards.length;
+                swiper?.slideTo(newIndex);
+                setCurrentIndex(newIndex);
+              }}
               aria-label="Previous card"
             >
               <FaArrowLeft className={"m-2 inline-block"} />
@@ -93,7 +97,11 @@ const ConversationSwiper = ({ cards }: Props) => {
             </div>
             <div
               className="cursor-pointer col-4 p-0 text-txt-p dark:text-darkmode-txt-p text-center"
-              onClick={() => swiper?.slideNext()}
+              onClick={() => { 
+                const newIndex = (currentIndex + 1) % cards.length;
+                swiper?.slideTo(newIndex);
+                setCurrentIndex(newIndex);
+              }}
               aria-label="Next card"
             >
               <FaArrowRight className="m-2 inline-block" />
